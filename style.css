@@ -102,6 +102,17 @@ em { font-style: italic; }
 }
 .topbar__nav a:hover::after { transform: scaleX(1); }
 
+@media (max-width: 720px) {
+  .topbar {
+    padding: 1rem 1.1rem;
+  }
+  .topbar__nav {
+    gap: 0.85rem;
+    font-size: 0.76rem;
+    letter-spacing: 0.08em;
+  }
+}
+
 /* ---------- Section label (01 — Hello) ---------- */
 .section-label {
   display: flex;
@@ -284,6 +295,12 @@ em { font-style: italic; }
   top: 14%;
   opacity: 0.85;
 }
+
+@media (max-width: 960px) {
+  .hero > .circle--olive {
+    display: none;
+  }
+}
 /* Thin vertical column rule on the right side */
 .hero__vline {
   position: absolute;
@@ -306,7 +323,6 @@ em { font-style: italic; }
     transform: none;
     opacity: 0.85;
   }
-  .hero > .circle--olive { display: none; }
   .hero__vline { display: none; }
   .circle--about   { width: 22rem; right: -8rem; opacity: 0.1; }
 }
@@ -589,12 +605,21 @@ em { font-style: italic; }
 @media (max-width: 860px) {
   .connect__grid { grid-template-columns: 1fr; gap: 3rem; }
   .circle--connect {
-    width: 27rem;
-    top: 48%;
+    width: 34rem;
+    top: 38%;
     bottom: auto;
-    right: -9rem;
-    transform: translateY(-5%);
-    opacity: 0.52;
+    right: -12rem;
+    transform: translateY(-10%);
+    opacity: 0.46;
+  }
+}
+
+@media (max-width: 520px) {
+  .circle--connect {
+    width: 30rem;
+    top: 42%;
+    right: -13rem;
+    transform: translateY(-12%);
   }
 }
 
