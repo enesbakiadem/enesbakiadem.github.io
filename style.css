@@ -306,7 +306,7 @@ em { font-style: italic; }
     transform: none;
     opacity: 0.85;
   }
-  .circle--olive { right: 8rem; top: 8%; width: 4rem; }
+  .hero > .circle--olive { display: none; }
   .hero__vline { display: none; }
   .circle--about   { width: 22rem; right: -8rem; opacity: 0.1; }
 }
@@ -589,12 +589,12 @@ em { font-style: italic; }
 @media (max-width: 860px) {
   .connect__grid { grid-template-columns: 1fr; gap: 3rem; }
   .circle--connect {
-    width: 22rem;
-    top: auto;
-    bottom: -8rem;
-    right: -8rem;
-    transform: none;
-    opacity: 0.6;
+    width: 27rem;
+    top: 48%;
+    bottom: auto;
+    right: -9rem;
+    transform: translateY(-5%);
+    opacity: 0.52;
   }
 }
 
