@@ -209,8 +209,8 @@ em { font-style: italic; }
   color: var(--ink);
 }
 .hero__city {
-  border-bottom: 2px solid var(--orange);
-  padding-bottom: 1px;
+  color: var(--olive);
+  font-weight: 700;
 }
 
 /* Bottom corner row: scroll cue (L) + status (R) */
