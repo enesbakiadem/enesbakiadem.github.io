@@ -1,5 +1,5 @@
-/* =============================================================
-   Mid-Century Modern Portfolio — single stylesheet
+﻿/* =============================================================
+   Mid-Century Modern Portfolio â€” single stylesheet
    ============================================================= */
 
 :root {
@@ -113,7 +113,7 @@ em { font-style: italic; }
   }
 }
 
-/* ---------- Section label (01 — Hello) ---------- */
+/* ---------- Section label (01 â€” Hello) ---------- */
 .section-label {
   display: flex;
   align-items: center;
@@ -137,7 +137,7 @@ em { font-style: italic; }
 }
 
 /* =============================================================
-   HERO  —  full-bleed, 100vw × 100vh editorial grid
+   HERO  â€”  full-bleed, 100vw Ã— 100vh editorial grid
    ============================================================= */
 .hero {
   position: relative;
@@ -271,7 +271,7 @@ em { font-style: italic; }
   box-shadow: 0 0 0 4px rgba(46, 92, 46, 0.18);
 }
 
-/* Decorative shapes — scattered to fill the canvas */
+/* Decorative shapes â€” scattered to fill the canvas */
 .circle {
   position: absolute;
   border-radius: 50%;
@@ -283,7 +283,7 @@ em { font-style: italic; }
   width: clamp(18rem, 34vw, 36rem);
   aspect-ratio: 1;
   right: clamp(-5rem, -3vw, -1rem);
-  top: 50%;
+  top: 59%;
   transform: translateY(-52%);
   opacity: 0.95;
 }
@@ -292,7 +292,7 @@ em { font-style: italic; }
   width: clamp(5rem, 8vw, 8rem);
   aspect-ratio: 1;
   right: clamp(10rem, 22vw, 26rem);
-  top: 14%;
+  top: 10%;
   opacity: 0.85;
 }
 
@@ -380,7 +380,7 @@ em { font-style: italic; }
 }
 
 /* =============================================================
-   WORK  —  two-column magazine spread, alternating sides
+   WORK  â€”  two-column magazine spread, alternating sides
    ============================================================= */
 .work {
   position: relative;
@@ -664,3 +664,4 @@ button:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
